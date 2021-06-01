@@ -16,6 +16,7 @@ namespace ConsoleApp32
     {
         static public void prog1()
         {
+            //программа 1
             string res, txt;
             int year = 2021, age, born;
             res = Interaction.InputBox("В каком году Вы родились?", "Год рождения");
@@ -26,6 +27,7 @@ namespace ConsoleApp32
         }
         static public void prog2()
         {
+            //программа 2
             Console.WriteLine("Напишите что либо то бы использовать окна");
             string a = Console.ReadLine();
             bool flag = a != "";
@@ -47,6 +49,7 @@ namespace ConsoleApp32
         }
         static public void prog3()
         {
+            //программа 3
             Console.WriteLine("Напишите что либо то бы использовать окна");
             string a = Console.ReadLine();
             bool flag = a != "";
@@ -68,6 +71,7 @@ namespace ConsoleApp32
         }
         static public void prog4()
         {
+            //программа 4
             Console.WriteLine("Напишите что либо то бы использовать окна");
             string a = Console.ReadLine();
             bool flag = a != "";
@@ -92,6 +96,7 @@ namespace ConsoleApp32
         }
         static public void prog5()
         {
+            //программа 5
             Console.WriteLine("Напишите что либо то бы использовать окна");
             string a = Console.ReadLine();
             bool flag = a != "";
@@ -113,6 +118,7 @@ namespace ConsoleApp32
         }
         static public void prog6()
         {
+            //программа 6
             string res, txt;
             int year = 2021, age, born;
             Console.WriteLine("В каком году Вы родились?");
@@ -124,6 +130,7 @@ namespace ConsoleApp32
         }
         static public void prog7()
         {
+            //программа 7
             Console.WriteLine("Напишите что либо то бы использовать окна");
             string a = Console.ReadLine();
             bool flag = a != "";
@@ -154,6 +161,7 @@ namespace ConsoleApp32
         }
         static public void prog8()
         {
+            //программа 8
             Console.WriteLine("Напишите что либо то бы использовать окна");
             string a = Console.ReadLine();
             bool flag = a != "";
@@ -181,6 +189,7 @@ namespace ConsoleApp32
         }
         static public void prog9()
         {
+            //программа 9
             Console.WriteLine("Напишите что либо то бы использовать окна");
             string a = Console.ReadLine();
             bool flag = a != "";
@@ -204,6 +213,7 @@ namespace ConsoleApp32
         }
         static public void prog10()
         {
+            //программа 10
             Console.WriteLine("Напишите что либо то бы использовать окна");
             string a = Console.ReadLine();
             bool flag = a != "";
@@ -224,6 +234,7 @@ namespace ConsoleApp32
         }
         static public void prog11()
         {
+            //программа 11
             Console.WriteLine("Напишите что либо то бы использовать окна");
             string a = Console.ReadLine();
             bool flag = a != "";
@@ -248,6 +259,7 @@ namespace ConsoleApp32
         static void Main(string[] args)
         {
             string num = Interaction.InputBox("Какую программу открыть?", "Программа");
+            //выбор программы 1-11
             switch (num)
             {
                 case "1":
